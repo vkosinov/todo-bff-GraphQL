@@ -8,7 +8,7 @@ const {
 const TodoType = new GraphQLObjectType({
   name: "Todo",
   fields: () => ({
-    id: { type: GraphQLID },
+    id: { type: GraphQLID, resolve: (obj) => obj._id || obj.id },
     title: { type: GraphQLString },
     completed: { type: GraphQLBoolean },
   }),
