@@ -4,6 +4,6 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 module.exports = axios.create({
-  baseURL: process.env.NODE_ENV,
+  baseURL: process.env.API_BASE_URL,
   timeout: 5000,
 });
