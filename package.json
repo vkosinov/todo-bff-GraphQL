@@ -1,0 +1,19 @@
+{
+  "name": "todo-bff-GraphQL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:bff": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.11.0"
+  }
+}
